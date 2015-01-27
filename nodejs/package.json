@@ -1,0 +1,9 @@
+{
+    "name": "feige",
+    "version": "0.1.0",
+    "devDependencies": {
+        "express": "3.x",
+        "jade" : "1.9.1",
+        "lokijs" : "^1.0.2"
+    }
+}

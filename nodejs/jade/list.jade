@@ -1,0 +1,22 @@
+html
+head
+    title list
+body
+    div
+        a(href="add.html") 添加
+    table
+        thead
+            tr
+                th Name
+                th Phone
+                th Email
+                th options
+        tbody
+            each item in list
+                tr
+                    td #{item.name}
+                    td #{item.phone}
+                    td #{item.email}
+                    td
+                        a(href="remove.html?phone=#{item.phone}") 删除
+

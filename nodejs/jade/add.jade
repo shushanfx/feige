@@ -1,0 +1,21 @@
+html
+head
+    title 添加
+body
+    form(action='insert.html', method="get")
+        table
+            tr
+                th 名称
+                td
+                    input(type="text", name="name", placeholder="输入名称")
+            tr
+                th 手机
+                td
+                    input(type="text", name="phone", placeholder="输入手机号码")
+            tr
+                th 邮箱
+                td
+                    input(type="text", name="email", placeholder="输入邮箱")
+            tr
+                td(colspan="2")
+                    input(type="submit", value="提交")
